@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "TT Lakes";
+  src: url("/font/TTLakes-Medium.ttf");
+}
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.header {
+  background: linear-gradient(270deg, #f8f8f8 0%, #ffffff 98.61%);
+}
+.header__line {
+  height: 1px;
+  background: #d9fff5;
+}
+.header__title {
+  font-family: "TT Lakes";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+
+  color: #7e7e82;
+  padding-left: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
