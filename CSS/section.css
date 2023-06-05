@@ -81,6 +81,10 @@
 .wrap-hide {
   height: 180px;
   overflow: hidden;
+  @media (max-width: 320px) {
+    width: 240px;
+    overflow: unset;
+  }
 }
 .arrow-rotate {
   transform: rotate(180deg);
